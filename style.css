@@ -19,10 +19,11 @@ html,body{
     flex-flow:column;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 nav{
-    position: relative;
+    
     height: 4rem;
     background-color: #00b19d;
     /* border: 1px solid red; */
@@ -45,7 +46,7 @@ main{
     flex-flow: column;
     flex: 1;
     height: 100%;
-    
+    border: 1px solid red;
 }
 
 
@@ -109,6 +110,7 @@ main{
     overflow-y: scroll;
     display: flex;   
     flex-wrap: wrap;
+    padding: 1rem;
     margin: 1rem;
     height: 100%;
     width: 95%;
@@ -131,6 +133,7 @@ main{
     -webkit-box-shadow: 1px 1px 3px 1px #356e6e;
     box-shadow: 1px 1px 3px 1px #1e4e44;
     transition: ease-in-out 200ms;
+    display: none;
 }
 #article:hover{
 
@@ -154,7 +157,7 @@ main{
     width: 3rem;
     text-align: center;
     line-height: 3rem;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: ivory;
     border-radius: 3rem;
     background-color: rgb(57, 209, 163);
@@ -260,7 +263,7 @@ background-color: lightgreen;
     transform: scale(1.05);
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     #index{
         display: none;
     }
@@ -268,4 +271,4 @@ background-color: lightgreen;
         display: none;
     }
     
-}
+} */
