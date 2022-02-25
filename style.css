@@ -166,7 +166,7 @@ main{
     position: relative;
     display: flex;
     flex-flow: column;
-    flex: 0.4   ;
+    flex: 0.4 ;
     height: 100%;
     background-color: white ;
     
