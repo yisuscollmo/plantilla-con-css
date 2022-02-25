@@ -37,7 +37,7 @@ nav{
     flex-direction: row;
     height: calc(100% - 4rem);
     width: 100%;
-    /* border: 1px solid red */
+    border: 1px solid rgb(27, 21, 21)
 }
 main{
 
@@ -46,13 +46,14 @@ main{
     flex-flow: column;
     flex: 1;
     height: 100%;
+    
     border: 1px solid red;
 }
 
 
 #search{
     position: relative;
-    padding: 1rem;
+    margin: 1rem;
     display: flex;
     flex-direction: row;
     /* margin: 2% ; */
@@ -111,9 +112,9 @@ main{
     display: flex;   
     flex-wrap: wrap;
     padding: 2rem;
-    margin: 2rem;
+  
     height: calc(100%-3rem);
-    width: 95%;
+    width: 100%;
     justify-content: center;
     /* border: 1px solid red; */
     /* transition: cubic-bezier(0.645, 0.045, 0.355, 1); */
@@ -268,7 +269,7 @@ background-color: lightgreen;
     transform: scale(1.05);
 }
 
-
+/* 
 @media (max-width: 400px) {
     #index{
         display: none;
@@ -277,4 +278,4 @@ background-color: lightgreen;
         display: none;
     }
     
-}
+} */
