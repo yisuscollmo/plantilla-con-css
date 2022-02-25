@@ -4,10 +4,12 @@
    /* border: 1px solid red;  */
 }
 
-body{
+html,body{
     margin: 0;
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden; */
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
 }
 #body{
     position: relative;
@@ -21,19 +23,23 @@ body{
 
 nav{
     position: relative;
-    height: 6rem;
+    height: 4rem;
     background-color: #00b19d;
     /* border: 1px solid red; */
     width: 100%;
+    top: 10rem;
 }
 #main{ 
     position: relative;
+    
     display: flex;
     flex-direction: row;
-    height: 100% - calc(6rem);
-    
+    height: calc(100%-4rem);
+    width: 100%;
+    border: 1px solid red
 }
 main{
+
     position: relative;
     display: flex;
     flex-flow: column;
@@ -46,12 +52,13 @@ main{
 #search{
     display: flex;
     flex-direction: row;
-    margin: 2% ;
-    height: 5vh;
-    width: 96%;
-    /* border: 1px solid red; */
+    /* margin: 2% ; */
+    height: 3rem;
+    width: 100%;
+    border: 1px solid red;
 }
 #lupita{
+    position: relative;
    text-align: center;
    line-height: 4rem;
     width: 3rem;
@@ -71,7 +78,7 @@ main{
     border: 1px solid #00b19d;
     border-radius: 0.2rem;
     height: 3rem;
-    width: 30rem; 
+    width: 50%; 
     color: #979797;
     font-size: larger;
     /* border: 1px solid red; */
@@ -79,7 +86,7 @@ main{
 #butonew{
     margin-left: 5px;
     height: 3rem;
-    width: 5rem; 
+    width: 8%; 
     color: #00b19d;
     line-height: 3.5vh;
     /* border: 1px solid red; */
@@ -130,7 +137,7 @@ main{
     flex-flow: column;
     height: 100%;
     width: 4rem;
-    
+    position: relative;
     background-color: rgb(255, 255, 255);
    
 
@@ -151,7 +158,7 @@ main{
     display: flex;
     flex-flow: column;
     flex: 0.4   ;
-    height: 94vh;
+    height: 100%;
     background-color: white ;
     
 }
